@@ -1,9 +1,27 @@
-.button_delete{
+*{
+	font-size: 1.2em;
+}
+
+input{
+	border: 1px solid black;
+}
+
+.button-delete{
 	color:red;
 	border: none;
 	background: white;
 }
 
+.button-edit{
+	color: blue;
+	border: none;
+	background: white;
+}
+
+.button-simple{
+	border: 1px solid black;
+}
+	
 .list{
 	list-style-type: none;
 }
