@@ -1,0 +1,13 @@
+.button_delete{
+	color:red;
+	border: none;
+	background: white;
+}
+
+.list{
+	list-style-type: none;
+}
+
+#input{
+	margin-left: 40px;
+}
