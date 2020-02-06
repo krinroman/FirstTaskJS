@@ -8,6 +8,12 @@
 <body>
 	<input type="text" name="input_text" id="input">
 	<button id="add_button" class="button-simple">Добавить</button>
+	<div id=radio_box>
+		<p><input name="sort" checked="true" type="radio" value="ascending_numbers">По возрастанию номера</p>
+		<p><input name="sort" type="radio" value="descending_numbers">По убыванию номера</p>
+		<p><input name="sort" type="radio" value="alphabetical">В алфавитном порядке</p>
+		<p><input name="sort" type="radio" value="reverse_alphabetical">В обратном алфавитном порядке</p>
+	</div>
 	<ul id="list_out" class="list"></ul>
 	<script type="text/javascript" src="main.js"></script>
 </body>

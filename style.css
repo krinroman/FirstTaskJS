@@ -29,3 +29,13 @@ input{
 #input{
 	margin-left: 40px;
 }
+
+#radio_box{
+	font-size: 1em;
+	margin-left: 40px;
+}
+
+#radio_box input{
+	width: 20px;
+	height: 20px;
+}
